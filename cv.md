@@ -1,6 +1,6 @@
 ## Nataliia Makarenko
 ----
-#### **Junior Front-end Developer**
+#### **Front-end Developer**
 ----
 **Telegram:** [nataliiatritaque](https://t.me/nataliiatritaque)
 
