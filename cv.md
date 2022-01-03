@@ -19,6 +19,7 @@ Can find a common language with people and open to new possibilities.*
 + HTML, CSS;
 + JS basics;
 + Git;
++ VS Code;
 + Figma
 
 ### **Courses**

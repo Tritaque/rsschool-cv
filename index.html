@@ -1,12 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!--basic page needs-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Front-End Dev</title>
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="img/icons/favicon.ico">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <!--header-->
+        <header class="header">
+            <div class="header-content">
+                <nav class="header-menu">
+                    <ul class="header-menu-list">
+                        <li class="header-menu-item"><a href="#about" class="header-menu-link">About</a></li>
+                        <li class="header-menu-item"><a href="#contacts" class="header-menu-link">Contacts</a></li>
+                        <li class="header-menu-item"><a href="#skills" class="header-menu-link">Skills</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--main-container-->
+        <main class="main-container">
+            <!--left-section-->
+            <section class="main-container-left-section">
+                <img src="img/photo.jpg" alt="author photo" class="main-photo">
+                <!--contacts section-->
+                <div class="contacts-section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="contacts-section-list">
+                        <li class="contacts-section-item">
+                            <span><img src="img/icons/email.png" alt="email icon" width="18px"></span>
+                            <a href="mailto:nataliia.tritaque@gmail.com"
+                                class="contacts-section-item-link">nataliia.tritaque@gmail.com</a>
+                        </li>
+                        <li class="contacts-section-item">
+                            <span><img src="img/icons/telegram.png" alt="telegram icon" width="18px"></span>
+                            <a href="https://t.me/nataliiatritaque"
+                                class="contacts-section-item-link">t.me/nataliiatritaque</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--hard skills section-->
+                <div class="hard-skills-section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="hard-skills-section-list">
+                        <li class="hard-skills-section-item">HTML, CSS</li>
+                        <li class="hard-skills-section-item">JavaScript basic</li>
+                        <li class="hard-skills-section-item">Git&GitHub</li>
+                        <li class="hard-skills-section-item">VS Code</li>
+                        <li class="hard-skills-section-item">Figma</li>
+                    </ul>
+                </div>
+                <!--language skills section-->
+                <div class="language-skills-section">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="language-skills-section-list">
+                        <li class="language-skills-section-item">English: Intermediate</li>
+                        <li class="language-skills-section-item">Russian: Native</li>
+                        <li class="language-skills-section-item">Ukrainian: Advanced</li>
+                    </ul>
+                </div>
+            </section>
+            <!--right-section-->
+            <section class="main-container-right-section">
+                <!--about me short info-->
+                <div class="about-me-section">
+                    <h1 class="about-me-section-title">Nataliia Makarenko</h1>
+                    <h3 class="about-me-secton-subtitle">Front-End Developer</h3>
+                </div>
+                <div class="about-me" id="about">
+                    <h2 class="section-title">About me</h2>
+                    <p class="about-me-descr">Front-end developer on JavaScript with a strong ability to learn. Have a
+                        goal to improve my knowledge in the field of front-end development, so I studied HTML, CSS, JS
+                        in a few courses to gain skills. Want to expand my JavaScript knowledge by working closely with
+                        team members to solve work tasks. <br>Can find a common language with people and open to new
+                        possibilities.</p>
+                </div>
+                <div class="about-me-education">
+                    <h2 class="section-title">Education</h2>
+                    <h4 class="about-me-date-title">2003 - 2008</h4>
+                    <p class="about-me-education-descr">National Technical University of Ukraine “Igor Sikorsky Kyiv
+                        Polytechnic Institute”, Department of Management in Publishing and Printing Industry</p>
+                </div>
+                <div class="about-me-courses">
+                    <h2 class="section-title">Courses</h2>
+                    <h4 class="about-me-date-title">2021</h4>
+                    <ul>
+                        <li class="about-me-courses-descr">Simulators on <a href="https://htmlacademy.ru/courses"
+                                class="link-style">htmlacademy.ru</a> (~1500 tasks)</li>
+                        <li class="about-me-courses-descr">JavaScript/Front-end. Stage 0 from <a
+                                href="https://rs.school/js-stage0/" class="link-style">The Rolling Scopes School</a> [in
+                            progress]</li>
+                        <li class="about-me-courses-descr">Courses on <a
+                                href="https://www.udemy.com/user/yan-kovalenko-2/" class="link-style">Udemy</a> [in
+                            progress]</li>
+                        <li class="about-me-courses-descr">Responsive Web Design on <a
+                                href="https://www.freecodecamp.org/learn/responsive-web-design/"
+                                class="link-style">freecodecamp.com</a></li>
+                    </ul>
+            </section>
+        </main>
+        <!--footer-->
+        <footer class="footer">
+            <div class="footer-item">
+                <a href="https://github.com/Tritaque" target="_blank"><img src="img/icons/github.png" alt="github icon"
+                        class="footer-item-social-link"></a>
+                <!-- </div>
+        <div class="footer-item"> -->
+                <a href="https://www.linkedin.com/in/nataliiatritaque/" target="_blank"><img
+                        src="img/icons/linkedin.png" alt="linkedin icon" class="footer-item-social-link"></a>
+            </div>
+            <div class="footer-item">
+                <a href="https://rs.school/js/" target="_blank">
+                    <img src="img/icons/rs_school_js.svg" alt="rs-school logo" height="32px">
+                </a>
+            </div>
+            <div class="footer-item">
+                <p>Created in 2022</p>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
